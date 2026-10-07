@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casa del Agricultor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader">
+            <i class="fa-solid fa-tractor fa-bounce" style="color: var(--naranja); font-size: 3rem;"></i>
+            <p>Cargando...</p>
+        </div>
+    </div>
+
+    <button id="scrollTopBtn" title="Volver arriba"><i class="fa-solid fa-chevron-up"></i></button>
+
+    <header id="header">
+        <div class="container header-container">
+            <img src="imagenes/LOGOCASAAGRICULTOR.jpeg" alt="Logo La Casa del Agricultor" class="logo">
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-bg"></div> 
+        <div class="hero-content">
+            <h1 data-aos="fade-down" data-aos-duration="1200">Expertos en maquinaria y herramientas agrícolas</h1>
+            <p class="typing-text" id="typewriter"></p>
+            <a href="#productos" class="btn btn-primary" data-aos="zoom-in" data-aos-delay="500">Explorar Catálogo <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="wave-bottom">
+            <svg viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="#F7F7F7" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,170.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </div>
+    </section>
+
+    <section class="stats-section bg-light">
+        <div class="container stats-grid">
+            <div class="stat-box" data-aos="fade-up" data-aos-delay="100">
+                <i class="fa-solid fa-calendar-check"></i>
+                <h3 class="counter" data-target="6">0</h3>
+                <p>Años de Experiencia</p>
+            </div>
+            <div class="stat-box" data-aos="fade-up" data-aos-delay="200">
+                <i class="fa-solid fa-users"></i>
+                <h3 class="counter" data-target="1500">0</h3>
+                <p>Clientes Satisfechos</p>
+            </div>
+            <div class="stat-box" data-aos="fade-up" data-aos-delay="300">
+                <i class="fa-solid fa-handshake"></i>
+                <h3 class="counter" data-target="15">0</h3>
+                <p>Marcas Aliadas</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="container section">
+        <div class="nosotros-grid">
+            <div class="text-content" data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="section-title text-left">Nuestra <span>Historia</span></h2>
+                <div class="decorative-line"></div>
+                <p>Nuestra empresa nació en 2020 como una ferretería local. Gracias a la confianza de nuestros clientes y el esfuerzo de nuestro equipo, hemos logrado una expansión sin precedentes en nuestra ciudad de origen.</p>
+                <p>Hoy en día, contamos con alianzas estratégicas con gigantes de la industria como <strong>Sermi, McCormick, Truper, John Deere, Massey Ferguson, Deutz-Fahr, DeWalt y AGCO.</strong></p>
+                
+                <div class="mision-vision-box">
+                    <div class="box" data-aos="flip-left" data-aos-delay="200">
+                        <div class="icon-wrapper"><i class="fa-solid fa-bullseye"></i></div>
+                        <h3>Misión</h3>
+                        <p>Proveer herramientas de alta calidad y soluciones personalizadas para el éxito agrícola.</p>
+                    </div>
+                    <div class="box" data-aos="flip-left" data-aos-delay="400">
+                        <div class="icon-wrapper"><i class="fa-solid fa-eye"></i></div>
+                        <h3>Visión</h3>
+                        <p>Ser la ferretería agrícola líder de la región central por innovación y eficiencia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="image-content" data-aos="fade-left" data-aos-duration="1000">
+                <div class="image-wrapper float-anim">
+                    <img src="imagenes/casa1.jpg" alt="Local La Casa del Agricultor" class="img-main">
+                    <img src="imagenes/casa2.jpg" alt="Interior del local" class="img-float float-anim-reverse">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos" class="section bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title" data-aos="fade-up">Nuestros <span>Productos</span></h2>
+                <div class="decorative-line mx-auto"></div>
+                <p class="subtitle" data-aos="fade-up" data-aos-delay="100">Equipamiento de primer nivel para cada necesidad de tu campo.</p>
+            </div>
+            
+            <div class="productos-grid">
+                <div class="producto-card" data-aos="zoom-in-up" data-aos-delay="100">
+                    <div class="card-img-container">
+                        <img src="imagenes/tractores.jpg" alt="Maquinaria Pesada">
+                        <div class="card-overlay"><i class="fa-solid fa-tractor"></i></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Maquinaria Pesada</h3>
+                        <p>Tractores, cosechadoras y rastras de alto rendimiento.</p>
+                        <span class="card-link">Ver detalles <i class="fa-solid fa-angle-right"></i></span>
+                    </div>
+                </div>
+                
+                <div class="producto-card" data-aos="zoom-in-up" data-aos-delay="200">
+                    <div class="card-img-container">
+                        <img src="imagenes/mantenimiento.jpg" alt="Equipos de Mantenimiento">
+                        <div class="card-overlay"><i class="fa-solid fa-leaf"></i></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Equipos de Mantenimiento</h3>
+                        <p>Fumigadoras, roticultores y repuestos de alta durabilidad.</p>
+                        <span class="card-link">Ver detalles <i class="fa-solid fa-angle-right"></i></span>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-aos="zoom-in-up" data-aos-delay="300">
+                    <div class="card-img-container">
+                        <img src="imagenes/herramientas2.jpg" alt="Repuestos y Accesorios">
+                        <div class="card-overlay"><i class="fa-solid fa-gears"></i></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Repuestos y Accesorios</h3>
+                        <p>Tercer punto, llantas especiales y ferretería en general.</p>
+                        <span class="card-link">Ver detalles <i class="fa-solid fa-angle-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="container section">
+        <div class="contacto-wrapper" data-aos="fade-up" data-aos-duration="1000">
+            <div class="text-center">
+                <h2 class="section-title">Conecta con <span>Nosotros</span></h2>
+                <div class="decorative-line mx-auto"></div>
+            </div>
+            
+            <div class="contacto-split">
+                <div class="contacto-details">
+                    <h3>Información de Contacto</h3>
+                    <p>Estamos aquí para asesorarte. Visítanos o escríbenos.</p>
+                    <div class="info-item">
+                        <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Av. Bruno Terreros 678, Jauja</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>993 506 173</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon-circle"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h4>Correo</h4>
+                            <p>casadelagriculto@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="redes-sociales mt-3">
+                        <a href="https://www.facebook.com/p/Inversiones-La-Casa-de-Agricultor-100063919399684/" target="_blank" class="btn-icon facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@casadelagricultor8" target="_blank" class="btn-icon tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contacto-form">
+                    <h3>Envíanos un mensaje</h3>
+                    <form action="#" method="POST" onsubmit="event.preventDefault(); alert('¡Mensaje enviado correctamente! (Simulación)');">
+                        <div class="form-group">
+                            <input type="text" placeholder="Tu Nombre Completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Tu Correo Electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" placeholder="¿En qué te podemos ayudar?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar Mensaje <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <img src="imagenes/LOGOCASAAGRICULTOR.jpeg" alt="Logo Footer" class="footer-logo">
+            <p>&copy; <span id="year"></span> La Casa del Agricultor. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
